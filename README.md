@@ -1,1 +1,1 @@
-# **MongoDB/Mongoose NYT web-scraper**
+# **MongoDB Scraper**
