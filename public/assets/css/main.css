@@ -8,10 +8,11 @@
 }
 
 body {
-  background-image: url('../img/brick-background.jpg');
+  /* background-image: url('../img/brick-background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 200%;
+  background-size: 100% 200%; */
+  background: #ff005b;
   background-position: center center;
   font-size: 62.5%;
   font-family: arial;
@@ -36,7 +37,7 @@ button:focus {
 
 .header {
   background-image: url('../img/nyt-header.png');
-  background-color: #181818;
+  background-color: #0d43f5;
   background-size: 40% 40%;
   background-repeat: no-repeat;
   background-position: center 35%;
