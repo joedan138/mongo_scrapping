@@ -51,45 +51,6 @@ button:focus {
   font-size: 80px;
 }
 
-#neon {
-  color: white;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	-webkit-transform: translate(-50%, 20%);
-	        transform: translate(-50%, 20%);
-	font-size: 7em;
-	margin: 0;
-	padding: 0 20px;
-	font-family: 'Quicksand', sans-serif;
-	text-shadow: 0 0 20px #ff005b;
-}
-
-#neon:after {
-	content: '[ WEB-SCRAPER ]';
-	color: #ff005b;
-	position: absolute;
-	padding: 0 20px;
-	top: 0;
-	left: 0;
-	z-index: -1;
-	-webkit-filter: blur(15px);
-	        filter: blur(15px);
-}
-
-#neon:before {
-	content: '';
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background: #fe3a80;
-	z-index: -2;
-	-webkit-filter: blur(40px);
-	        filter: blur(40px);
-	opacity: 0.5;
-}
 
 .button-dark {
   font-size: 2.2em;
