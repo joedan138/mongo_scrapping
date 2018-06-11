@@ -2,17 +2,14 @@
 /************************************* Global CSS *************************************/
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Ultra');
 
 :root {
   --header-height: 30em;
 }
 
 body {
-  /* background-image: url('../img/brick-background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 200%; */
-  background: #ff005b;
+  background: #d3d2f8;
   background-position: center center;
   font-size: 62.5%;
   font-family: arial;
@@ -36,8 +33,9 @@ button:focus {
 
 
 .header {
-  background-image: url('../img/nyt-header.png');
-  background-color: #0d43f5;
+  /* background-image: url('../img/nyt-header.png'); */
+  text-align: center;
+  background-color: #5f84fc;
   background-size: 40% 40%;
   background-repeat: no-repeat;
   background-position: center 35%;
@@ -48,6 +46,10 @@ button:focus {
   border-bottom: 5px solid rgba(255,255,255,0.2);
 }
 
+.headerTitle {
+  font-family: 'Ultra', serif;
+  font-size: 80px;
+}
 
 #neon {
   color: white;
@@ -273,46 +275,4 @@ button:focus {
 
 
 
-/************************ neon title animation CSS ************************/
 
-
-#neon:before {
-  -webkit-animation-name: pulse;
-          animation-name: pulse;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-duration: 60ms;
-          animation-duration: 60ms;
-}
-
-@-webkit-keyframes pulse {
-	0% {
-		-webkit-filter: blur(30px);
-		        filter: blur(30px);
-	}
-	50% {
-		-webkit-filter: blur(40px);
-		        filter: blur(40px);
-	}
-	100% {
-		-webkit-filter: blur(30px);
-		        filter: blur(30px);
-
-}
-}
-
-@keyframes pulse {
-	0% {
-		-webkit-filter: blur(30px);
-		        filter: blur(30px);
-	}
-	50% {
-		-webkit-filter: blur(40px);
-		        filter: blur(40px);
-	}
-	100% {
-		-webkit-filter: blur(30px);
-		        filter: blur(30px);
-
-}
-}
